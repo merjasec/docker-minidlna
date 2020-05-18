@@ -1,5 +1,5 @@
 # docker-minidlna
-Docker image for the MiniDLNA based on Ubuntu 18.04 LTS
+Docker image for the MiniDLNA based on Ubuntu 20.04 LTS
 
 # Usage:
 ```sh
