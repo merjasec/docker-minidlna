@@ -11,7 +11,7 @@ RUN echo $TZ > /etc/timezone && \
     ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && \
     dpkg-reconfigure -f noninteractive tzdata
 
-RUN apt-get -y install joe nmap vim
+RUN apt-get -y install joe nmap vim iputils-ping iproute2
 
 RUN apt-get -y install minidlna
 
